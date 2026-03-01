@@ -27,11 +27,11 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NovaClient"
+rootProject.name = "BlockLegendsLite"
 include(":app")
 include(":relay")
 include(
-    ":relay:adventure",
+    ":relay:Protocol:adventure",
     ":relay:Protocol:bedrock-codec",
     ":relay:Protocol:bedrock-connection",
     ":relay:Protocol:common",
